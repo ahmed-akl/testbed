@@ -1,10 +1,10 @@
 /*
-Battery.h is a header file for the Battery measurement code
+BATTERY.h is a header file for the Battery measurement code
 Created by Nour Eldin Ali, November 4, 2013
 
 */
 
-#ifndef Battery_h
+#ifndef BATTERY_h
 #define Battery_h
 
 #include "Arduino.h" // if you are NOT using Arduino 1.0 then change Arduino.h to WProgram.h
