@@ -5,7 +5,7 @@ Created by Nour Eldin Ali, November 4, 2013
 */
 
 #ifndef BATTERY_h
-#define Battery_h
+#define BATTERY_h
 
 #include "Arduino.h" // if you are NOT using Arduino 1.0 then change Arduino.h to WProgram.h
 
