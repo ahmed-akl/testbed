@@ -1,2 +1,3 @@
-bed   KEYWORD1
-dash    KEYWORD2
+Battery	KEYWORD1
+voltageRead	KEYWORD2
+batteryVoltage	KEYWORD2
