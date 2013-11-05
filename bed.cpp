@@ -1,15 +1,26 @@
 /*
-  bed.cpp - Library for flashing Morse code.
-  Created by ....(Actual contributors)...... , November 15, 2013.
-  Released into the public domain.
+Battery.cpp Library for calculating the voltage supplied by a battery or simply measuring analog voltage
+Created by Nour Eldin Ali, November 4,2013
+
 */
 
-#include "Arduino.h"
-#include "bed.h"
+#include "Arduino.h" // if you are NOT using Arduino 1.0 then change "Arduino.h" to "WProgram.h"
+#include "Battery.h"
 
-bed::bed(int pin)
+Battery::Battery(int pin)
 {
-  pinMode(pin, OUTPUT);
-  _pin = pin;
+	_pin = pin;
 }
 
+void Battery::voltageRead(float* variable)
+{
+	_variable = variable;
+	*_variable = analogRead(_pin) * (5.0/1023.0);
+}
+
+float Battery::batteryVoltage(float r1, float r2, float variable)
+{
+	_rSum = r1 + r2;
+	_bVoltage = (_rSum/(r2)) * variable;
+	return (_bVoltage);
+}
