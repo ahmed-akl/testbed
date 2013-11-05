@@ -1,4 +1,4 @@
 testbed
 =======
 
-software related to WSN testbed
+We are creating our WSN testbed. This repository contains all software related to our project
