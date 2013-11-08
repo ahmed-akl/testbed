@@ -1,3 +1,2 @@
-Battery	KEYWORD1
+BATTERY	KEYWORD1
 voltageRead	KEYWORD2
-batteryVoltage	KEYWORD2
