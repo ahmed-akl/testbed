@@ -1,7 +1,8 @@
 /*
-Battery.h is a header file for the Battery measurement code
-Created by Nour Eldin Ali, November 4, 2013
-modified : 8/11/2013 
+BATTERY.h is a header file for the Battery measurement code
+Author: Nour Eldin Ali, November 4, 2013
+Contacts: nourbrown@gmail.com
+Last modified : 8/11/2013 
 */
 
 #ifndef BATTERY_h
