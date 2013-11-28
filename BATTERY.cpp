@@ -1,7 +1,8 @@
 /*
-Battery.cpp Library for calculating the voltage supplied by a battery or simply measuring analog voltage
-Created by Nour Eldin Ali, November 4,2013
-modified 8/11/2013
+BATTERY.cpp Library for calculating the voltage supplied by a battery or simply measuring analog voltage
+Author: Nour Eldin Ali, November 4,2013
+Contacts: nourbrown@gmail.com
+Last modified 8/11/2013
 */
 
 #include "Arduino.h" // if you are NOT using Arduino 1.0 then change "Arduino.h" to "WProgram.h"
